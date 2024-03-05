@@ -1,4 +1,5 @@
 function Navbar() {
+
     return (  
         <header className=" absolute w-[80rem] m-auto left-0 right-0 my-7 flex items-center justify-between  text-white">
         <h2 className=" text-2xl"><span className=" font-extrabold">Rocket</span>lister</h2>
@@ -38,3 +39,4 @@ function Navbar() {
 //     color: rgb(195, 195, 195);
 // }
 export default  Navbar;
+
