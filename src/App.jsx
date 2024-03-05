@@ -2,6 +2,10 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import CardComponent from './components/card'
+import Section2 from './views/Section2'
+import Section4 from './views/Section4'
+import Section8 from './views/Section8'
 
 import SectionPhoto from './views/section3'
 import SectionAmenities from './views/section6'
@@ -18,6 +22,7 @@ function App() {
 
   return (
 
+
     <div className=' relative'>
       <Navbar />
       <Hero />
@@ -25,6 +30,7 @@ function App() {
       <Floor />
     <SectionAmenities/>
        <SectionCalculator/>
+    <Section8></Section8>
       <Footer />
     </div>
   )
