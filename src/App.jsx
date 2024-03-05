@@ -7,16 +7,32 @@ import Section2 from './views/Section2'
 import Section4 from './views/Section4'
 import Section8 from './views/Section8'
 
+import SectionPhoto from './views/section3'
+import SectionAmenities from './views/section6'
+import SectionCalculator from './views/section7'
+
+import Navbar from './components/Navbar'
+import Hero from './views/Hero'
+import Floor from './views/Floor'
+import Footer from "./views/Footer"
+
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-    <div>
-      <h1> Property Project Landing Page</h1>
-      <Section8></Section8>
+
+
+    <div className=' relative'>
+      <Navbar />
+      <Hero />
+      <SectionPhoto/>
+      <Floor />
+    <SectionAmenities/>
+       <SectionCalculator/>
+    <Section8></Section8>
+      <Footer />
     </div>
-    </>
   )
 }
 
