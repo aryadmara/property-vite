@@ -9,8 +9,10 @@ import { IoLayersOutline } from "react-icons/io5";
 
 function Section2() {
     return (
+
         <section className="flex flex-column mt-[3.5rem] mb-[3.5rem] w-fit">
             <div id="left-section" className="relative  mx-40  grid grid-cols-2 grid-rows-2">
+
                 <CardComponent number="5 bedroom">
                     <LuBedDouble className="w-12 h-12 font-light" />
                 </CardComponent>

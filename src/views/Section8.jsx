@@ -5,6 +5,7 @@ import { ImMail4 } from "react-icons/im";
 function Section8() {
     return (
         <section className="flex">
+
             <div className="mb-40">
                 <header className="text-3xl text-[#3A8CB1] mx-40 font-bold mb-12">Listing Presented by <br />Joe Agent</header>
                 <div id="photo-1" class="ml-40 w-[20rem] grid grid-cols-2 gap-4 mb-12">
@@ -19,10 +20,12 @@ function Section8() {
                         <div className="flex col-start-2 row-start-6 text-[#3A8CB1]">
                             <ImMail4 classname="text-[#3A8CB1]" />joe@williams.com
                         </div>
+
                         <p className="col-start-2 row-start-7">License number - RE1234567</p>
                         <h1 className="col-start-2 row-start-8 font-bold">Website</h1>
                     </div>
                 </div>
+
                 <div id="photo-2" class="ml-40 w-[22rem] grid grid-cols-2 gap-4">
                     <PhotoComponent url="https://previews.123rf.com/images/nyul/nyul1102/nyul110200529/8782831-pretty-office-worker-girl-sitting-at-desk-looking-at-computer-screen-smiling.jpg" className="row-span-6 col-start-1 row-start-2  border-red-400" />
                     <div id="biodata2">
@@ -35,11 +38,13 @@ function Section8() {
                         <div className="flex col-start-2 row-start-6 text-[#3A8CB1]">
                             <ImMail4 classname="text-[#3A8CB1]" />annu@madera.com
                         </div>
+
                         <p className="col-start-2 row-start-7">License number - RE1234567</p>
                         <h1 className="col-start-2 row-start-8 font-bold">Website</h1>
                     </div>
                 </div>
             </div>
+
             <div id="right-section" className="relative -top-16 bg-[#f4f4f4c5] w-6/12 h-[48rem] pt-[6rem] pl-20 ml-20">
                 <form className="flex flex-col">
                     <h1 className="text-4xl text-[#3A8CB1] font-light pt-10 mb-10">Get in Touch</h1>
@@ -66,6 +71,7 @@ function Section8() {
                     <div className="flex my-10"><button className="bg-[#3A8CB1] text-white w-40 h-10">Send Inquiry</button><button className="bg-[#3A8CB1] text-white ml-[15rem] w-40 h-10">Schedule a Tour</button></div>
 
                 </form>
+
             </div>
         </section>
     );
