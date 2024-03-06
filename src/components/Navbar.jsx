@@ -4,13 +4,13 @@ function Navbar() {
         <header className=" absolute w-[80rem] m-auto left-0 right-0 my-7 flex items-center justify-between  text-white">
         <h2 className=" text-2xl"><span className=" font-extrabold">Rocket</span>lister</h2>
         <nav className=" bg-opacity-100 text-xs ">
-            <a className = " m-5 " href="#">OVERVIEW</a>
-            <a className = " m-5"href="#">PHOTOS</a>
-            <a className = " m-5"href="#">TOURS</a>
-            <a className = " m-5"href="#">AMENITIES</a>
-            <a className = " m-5"href="#">PAYMENT</a>
-            <a className = " m-5"href="#">CONTACT</a>
-            <a className = " m-5"href="#">MAP</a>
+            <a className = " m-5 hover:text-[#c9c9c9]" href="#">OVERVIEW</a>
+            <a className = " m-5 hover:text-[#c9c9c9]"href="#">PHOTOS</a>
+            <a className = " m-5 hover:text-[#c9c9c9]"href="#">TOURS</a>
+            <a className = " m-5 hover:text-[#c9c9c9]"href="#">AMENITIES</a>
+            <a className = " m-5 hover:text-[#c9c9c9]"href="#">PAYMENT</a>
+            <a className = " m-5 hover:text-[#c9c9c9]"href="#">CONTACT</a>
+            <a className = " m-5 hover:text-[#c9c9c9]"href="#">MAP</a>
         </nav>
     </header>
     );
