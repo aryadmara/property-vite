@@ -9,22 +9,22 @@ import { IoLayersOutline } from "react-icons/io5";
 
 function Section2() {
     return (
-        <section className="flex flex-column mt-[3.5rem] mb-[3.5rem]">
+        <section className="flex flex-column ">
             <div id="left-section" className="relative -top-20 mx-40 w-fit gap-8 grid grid-cols-2 grid-rows-2">
                 <CardComponent number="5 bedroom">
-                    <LuBedDouble className="w-12 h-12 font-light" />
+                    <LuBedDouble className="w-8 h-8 font-light" />
                 </CardComponent>
 
                 <CardComponent number="3 bathrooms">
-                    <LuBath className="w-12 h-12 font-light" />
+                    <LuBath className="w-8 h-8 font-light" />
                 </CardComponent>
 
                 <CardComponent number="5000 sqft" description="Home Size">
-                    <GiMaze className="w-12 h-12 font-light" />
+                    <GiMaze className="w-8 h-8 font-light" />
                 </CardComponent>
 
                 <CardComponent number="30,000 sf" description="Lot Size">
-                    <IoLayersOutline className="w-12 h-12 font-light" />
+                    <IoLayersOutline className="w-8 h-8 font-light" />
                 </CardComponent>
             </div>
             <div id="right-section" className=" mt-24 w-60">
