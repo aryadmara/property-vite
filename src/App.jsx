@@ -10,11 +10,11 @@ import Section8 from './views/Section8'
 import SectionPhoto from './views/section3'
 import SectionAmenities from './views/section6'
 import SectionCalculator from './views/section7'
-
-import Navbar from './components/Navbar'
 import Hero from './views/Hero'
+import Navbar from './components/Navbar'
 import Floor from './views/Floor'
 import Footer from "./views/Footer"
+import MapGoogle from './components/Map'
 
 
 function App() {
@@ -26,11 +26,14 @@ function App() {
     <div className=' relative'>
       <Navbar />
       <Hero />
+      <Section2 />
       <SectionPhoto/>
+      <Section4/>
       <Floor />
     <SectionAmenities/>
        <SectionCalculator/>
-    <Section8></Section8>
+    <Section8 />
+      <MapGoogle />
       <Footer />
     </div>
   )
