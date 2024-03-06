@@ -5,7 +5,7 @@ import { TbRotate360 } from "react-icons/tb";
 
 function Section4() {
     return ( 
-        <section className="flex position relative left-[20%] ">
+        <section className="flex w-[75rem] relative left-[20%] mt-[3.5rem] mb-[7rem]">
             <VideoComponent/>
             <div className="pl-8">
                 <h1 className="text-5xl pb-8 text-[#3A8CB1] font-bold">Virtual <br/>Tour</h1>
