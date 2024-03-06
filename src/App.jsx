@@ -26,11 +26,13 @@ function App() {
     <div className=' relative'>
       <Navbar />
       <Hero />
+      <Section2 />
       <SectionPhoto/>
+      <Section4 />
       <Floor />
     <SectionAmenities/>
        <SectionCalculator/>
-    <Section8></Section8>
+      <Section8 />
       <Footer />
     </div>
   )
