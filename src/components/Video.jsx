@@ -1,7 +1,7 @@
 function VideoComponent() {
     return ( 
         <div>
-        <iframe className="w-[54rem] h-[32rem]" src="https://youtube.com/embed/QDYPsitWdzk?autoplay=1"  title="W3Schools Free Online Web Tutorials"></iframe>
+        <iframe className="w-[46rem] h-[28rem]" src="https://youtube.com/embed/yGwRJBHbFKk?autoplay=1"  allowFullScreen title="room-tour"></iframe>
         </div>
      );
 }

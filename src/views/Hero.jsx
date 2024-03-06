@@ -4,7 +4,8 @@ import { PiLighthouse } from "react-icons/pi";
 
 function hero() {
     return ( 
-        <div className=" bg-[url('https://images.pexels.com/photos/775219/pexels-photo-775219.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] bg-cover flex flex-col justify-center  w-full h-[800px] bg-no-repeat bg-center  ">
+
+        <div className=" bg-[url('https://images.adsttc.com/media/images/5bcd/320f/f197/cc4e/4000/0155/slideshow/Peny_RenAi_penthouse-195.jpg?1540174342')] bg-cover flex flex-col justify-center  w-full h-[800px] bg-no-repeat bg-center  ">
             <h1 className=" mt-12 text-6xl text-center align-middle text-white ">567 Mottson Lane</h1>
             <h1 className="  mt-12 text-3xl text-center align-middle text-white ">Beach Ville, CA 12345</h1>
             <div className=" flex flex-col mt-64 justify-center items-center ">
