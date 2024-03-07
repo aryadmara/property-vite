@@ -7,7 +7,7 @@ function SectionAmenities(){
       <div className="flex gap-3 items-center ">
         <div className="border-b border-gray-400 w-72 h-1 "></div>
         <div >
-            <p className=" w-62 text-[#3A8CB1] text-[2.3rem] font-medium">Photo Gallery</p>
+            <p className=" w-62 text-[#3A8CB1] text-[2.3rem] font-medium">Amenities</p>
         </div>
         <div></div>
       </div>
