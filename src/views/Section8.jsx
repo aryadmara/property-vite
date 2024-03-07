@@ -4,9 +4,9 @@ import { ImMail4 } from "react-icons/im";
 
 function Section8() {
     return (
-        <section className="flex">
+        <section className="flex h-[44rem]">
 
-            <div className="mb-40">
+            <div className="">
                 <header className="text-3xl text-[#3A8CB1] mx-40 font-bold mb-12">Listing Presented by <br />Joe Agent</header>
                 <div id="photo-1" class="ml-40 w-[20rem] grid grid-cols-2 gap-4 mb-12">
                     <PhotoComponent url="https://as1.ftcdn.net/v2/jpg/03/33/86/90/1000_F_333869058_1H9me2PhuAGBtdxyjwjKj6N4XpEgFR56.jpg" className="object-left row-span-6 col-start-1 row-start-2 " />
@@ -45,7 +45,7 @@ function Section8() {
                 </div>
             </div>
 
-            <div id="right-section" className="relative -top-16 bg-[#f4f4f4c5] w-6/12 h-[48rem] pt-[6rem] pl-20 ml-20">
+            <div id="right-section" className="relative -top-16 bg-[#f4f4f4c5] w-full h-[48rem] pt-[6rem] pl-20 ml-20">
                 <form className="flex flex-col">
                     <h1 className="text-4xl text-[#3A8CB1] font-light pt-10 mb-10">Get in Touch</h1>
                     
