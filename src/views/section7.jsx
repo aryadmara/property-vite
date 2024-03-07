@@ -43,11 +43,11 @@
                 <div className="flex-1 flex flex-col justify-end mb-7">
                   <div className="h-[4rem]">
                     <p className="mb-1 font-medium">Principal and Interest</p>
-                    <input type="text" className="w-80 h-8 rounded bg-gray-100 border border-gray-300 mb-1" value="" />
+                    <input type="text" className="w-80 h-8 rounded bg-gray-100 border border-gray-300 mb-1" />
                   </div>
                   <div className="h-[4rem]">
                     <p className="mb-1 font-medium">Homeowners Association Feet</p>
-                    <input type="text" className="w-80 h-8 rounded bg-gray-100 border border-gray-300 mb-1" value="" />
+                    <input type="text" className="w-80 h-8 rounded bg-gray-100 border border-gray-300 mb-1" />
                   </div>
                 </div>
 
@@ -57,23 +57,23 @@
             <div className="flex-1 flex flex-col justify-end mb-7 pb-7">
               <div className="h-[4rem]">
                 <p className="mb-1 font-medium">Principal and Interest</p>
-                <input type="text" className="w-80 h-8 rounded bg-gray-100 border border-gray-300 mb-1" value="" />
+                <input type="text" className="w-80 h-8 rounded bg-gray-100 border border-gray-300 mb-1" />
               </div>
               <div className="h-[4rem]">
                 <p className="mb-1 font-medium">Homeowners Association Feet</p>
-                <input type="text" className="w-80 h-8 rounded bg-gray-100 border border-gray-300 mb-1" value="" />
+                <input type="text" className="w-80 h-8 rounded bg-gray-100 border border-gray-300 mb-1" />
               </div>
               <div className="h-[4rem]">
                 <p className="mb-1 font-medium">Principal and Interest</p>
-                <input type="text" className="w-80 h-8 rounded bg-gray-100 border border-gray-300 mb-1" value="" />
+                <input type="text" className="w-80 h-8 rounded bg-gray-100 border border-gray-300 mb-1" />
               </div>
               <div className="h-[4rem]">
                 <p className="mb-1 font-medium">Term (*in years)</p>
-                <input type="text" className="w-80 h-8 rounded bg-gray-100 border border-gray-300 mb-1" value="" />
+                <input type="text" className="w-80 h-8 rounded bg-gray-100 border border-gray-300 mb-1" />
               </div>
               <div className="h-[4rem]">
                 <p className="mb-1 font-medium">Interest</p>
-                <input type="text" className="w-80 h-8 rounded bg-gray-100 border border-gray-300 mb-1" value="" />
+                <input type="text" className="w-80 h-8 rounded bg-gray-100 border border-gray-300 mb-1"  />
               </div>
             </div>
           </div>
