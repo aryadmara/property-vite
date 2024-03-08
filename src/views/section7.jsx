@@ -1,3 +1,4 @@
+  
   import { FaSquare } from "react-icons/fa";
   import Graph from "../assets/graph.png"
  
@@ -75,6 +76,7 @@
                 <p className="mb-1 font-medium">Interest</p>
                 <input type="text" className="w-80 h-8 rounded bg-gray-100 border border-gray-300 mb-1"  />
               </div>
+              <button className="bg-[#FF7311] rounded-md px-4 py-2 w-80 text-white mt-1">Calculate</button>
             </div>
           </div>
           
