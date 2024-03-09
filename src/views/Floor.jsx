@@ -24,7 +24,7 @@ function Floor() {
                 <h1 className={`text-sm px-7 ${selectedFloor === "FLOOR TWO" ? "text-[#3A8CB1]" : "text-[#c9c9c9]"} hover:text-[#3A8CB1]`} 
                 onClick={() =>gambarFloor("FLOOR TWO")}>FLOOR TWO</h1>
             </div>
-                <div className="flex justify-center m-5 mt-12 md:mt-0">
+                <div className="flex justify-center m-5 mt-12 md:mt-8">
                 <img src={floor} alt="" className="w-96 h-96" />
                 </div>
         </div>
