@@ -2,7 +2,7 @@ function Navbar() {
 
     return (  
         <header className=" absolute w-[80rem] m-auto left-0 right-0 my-7 flex items-center justify-between  text-white">
-        <h2 className=" pl-4 md:pl-0 text-2xl"><span className=" font-extrabold">Rocket</span>lister</h2>
+        <h2 className=" pl-4 md:pl-0 text-2xl cursor-pointer"><span className=" font-extrabold">Rocket</span>lister</h2>
         <nav className=" hidden md:block bg-opacity-100 text-xs ">
             <a className = " m-5 hover:text-[#c9c9c9]" href="#">OVERVIEW</a>
             <a className = " m-5 hover:text-[#c9c9c9]"href="#">PHOTOS</a>
