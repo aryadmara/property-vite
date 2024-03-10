@@ -33,14 +33,14 @@ function Section2() {
             </div>
             <div id="right-section" className="p-4 mt-5 w-full md:w-1/2">
                 <div className="flex flex-col md:flex-row justify-center md:justify-between items-center">
-                    <div className="flex md:block justify-center text-center"><h1 className="text-4xl text-[#3A8CB1] font-bold w-[18rem]">About<br/>the Property</h1></div>
+                <div className="flex md:block text-center md:text-left"><h1 className="text-4xl text-[#3A8CB1] font-bold w-[18rem]">About<br/>the Property</h1></div>
                     <div className="flex pt-10 md:mt-0">
                         <BiSolidDollarCircle className="text-7xl text-[#BFB47A]" />
                         <h2 className="text-2xl">Offered at<br />$1,000,000</h2>
                     </div>
                 </div>
-
-                <div className="mt-12 ">
+      
+                <div className="mt-12 md:mt-0 ">
                     <p className="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus est numquam cupiditate animi, iste inventore! Quas tempora quibusdam inventore sint exercitationem? Animi delectus nesciunt quibusdam assumenda error eius obcaecati nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus est numquam cupiditate animi, iste inventore! Quas tempora quibusdam inventore sint exercitationem? Animi delectus nesciunt quibusdam assumenda error eius obcaecati nisi.</p>
                 </div>
                 <div className="flex justify-end md:hidden"><HiDotsHorizontal /></div>
