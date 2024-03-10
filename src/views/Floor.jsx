@@ -8,7 +8,7 @@ function Floor() {
     const [selectedFloor, setSelectedFloor] = useState("FLOOR ONE");
     const gambarFloor = (klik) => {
         if (klik === "FLOOR TWO"){
-            setFloor (floor === floorPlan ? floorPlan2 : floorPlan)
+            setFloor (floor === floorPlan ? floorPlan2 : floorPlan2)
             setSelectedFloor("FLOOR TWO")
         } else {
             setFloor(floorPlan)
