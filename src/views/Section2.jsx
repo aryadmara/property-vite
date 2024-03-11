@@ -34,10 +34,12 @@ function Section2() {
                 </CardComponent>
                 
             </div>
+
             <div id="right-section" className="p-4 md-p-0 mt-5 md:mt-0 w-full md:w-1/2">
                 <div className="flex flex-col md:flex-row justify-center md:justify-between items-center mb-10">
                     <div className="flex md:block text-center md:text-left"><h1 className="text-4xl text-[#3A8CB1] font-bold">About<br/>the Property</h1></div>
                     <div className="flex pt-10 md:pt-0">
+
                         <BiSolidDollarCircle className="text-7xl text-[#BFB47A]" />
                         <h2 className="text-2xl">Offered at<br />$1,000,000</h2>
                     </div>
@@ -54,7 +56,9 @@ function Section2() {
                         <button className="bg-[#f4f4f4] hover:bg-[#3A8CB1] hover:text-white shadow-lg w-40 h-8 gap-2 text-xl align-middle font-bold flex justify-center items-center "><BsDownload /> Brochure</button>
                         <button className="bg-[#f4f4f4] hover:bg-[#3A8CB1] hover:text-white shadow-lg w-40 h-8 gap-2 text-xl align-middle font-bold flex justify-center items-center"><BsDownload /> Document</button>
                     </div>}
+
                 </div>
+                     
                 <div className="hidden md:flex  justify-between font-bold mt-5">
                     <button className="h-8 text-xl align-middle font-bold flex justify-center items-center">Read More <SlArrowRight className="h-3" /></button>
                     <div className="flex gap-10">
