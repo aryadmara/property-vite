@@ -9,7 +9,7 @@ function Navbar() {
         // setName (`Pogba`)
     }
     return (  
-        <header className=" absolute w-[80rem] m-auto left-0 right-0 my-7 flex items-center justify-between  text-white ">
+        <header className=" absolute  w-full md:w-[80rem] m-auto left-0 right-0 my-7 flex items-center justify-between  text-white ">
             {/* <p>{name}</p> */}
         <div className={`${view} text-black bottom-24 right-4 fixed bg-white shadow rounded-t-lg rounded-l-lg z-50`} > 
             <button className=" absolute -top-2 right-2 " type="button" onClick={handleHidden} ><IoCloseCircleSharp  className=" text-red-600 fixed bg-white rounded-full" /></button>
